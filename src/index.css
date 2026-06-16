@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+
+.active{
+    @apply bg-violet-500 text-white;
+}
+
+@utility customContainer{
+    @apply px-15 py-7;
+}
+
+@utility customContainerPages{
+    @apply px-15 py-25;
+}
+
+button{
+    outline: none;
+}
+
+@keyframes starAnimation{
+    0%, 100%{
+        transform: scale(0.3);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+}
