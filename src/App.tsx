@@ -15,7 +15,7 @@ function App() {
       <ExperienceSection />
       <ProjectsSection />
       <ContactSection />
-      <footer className="py-12 text-center text-sm text-muted-foreground font-light border-t border-border/20 bg-secondary/20">
+      <footer className="py-13 text-center text-sm text-muted-foreground font-light border-t border-border/20 bg-secondary/20">
         <p>© {new Date().getFullYear()} Peddananne Tahir Ahammad. All rights reserved.</p>
         <p className="mt-2 text-xs opacity-50">Designed with precision.</p>
       </footer>
